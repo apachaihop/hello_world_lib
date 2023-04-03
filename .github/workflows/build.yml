@@ -18,6 +18,7 @@ jobs:
         cd build
         cmake ..
         cmake --build .
+        cd bin
         ctest hello-lib-static
         ctest hello-lib-dynamic
     - name: run with static linking
