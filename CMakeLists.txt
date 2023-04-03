@@ -4,4 +4,3 @@ project(hello_home)
 
 add_subdirectory(lib)
 add_subdirectory(bin)
-
