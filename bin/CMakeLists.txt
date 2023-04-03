@@ -12,9 +12,5 @@ target_link_libraries(hello-bin-dynamic LINK_PUBLIC hello-lib-dynamic)
 
 enable_testing()
 
-add_test(NAME test-static
-COMMAND hello-lib-static
-)
-add_test(NAME test-dynamic
-COMMAND hello-lib-dynamic
-)
+add_test(test-static hello-lib-static)
+add_test(test-dynamic hello-lib-dynamic)
