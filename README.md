@@ -9,6 +9,6 @@
 ### 5.cmake ..
 ### 6.make
 ### 7.cd bin
-### 8../hello-bin-static
-### 9../hello-bin-dynamic
-## Also you can use other generatirs on your purposes
+### 8. ./hello-bin-static
+### 9. ./hello-bin-dynamic
+## Also you can use other generators on your purposes
