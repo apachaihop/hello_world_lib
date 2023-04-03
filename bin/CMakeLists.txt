@@ -9,3 +9,8 @@ target_link_libraries(hello-bin-static LINK_PUBLIC hello-lib-static)
 add_executable(hello-bin-dynamic source/main.cpp)
 target_compile_features(hello-bin-dynamic PRIVATE cxx_std_20)
 target_link_libraries(hello-bin-dynamic LINK_PUBLIC hello-lib-dynamic)
+
+enable_testing()
+
+add_test(test-static hello-lib-static)
+add_test(test-dynamic hello-lib-dynamic)
