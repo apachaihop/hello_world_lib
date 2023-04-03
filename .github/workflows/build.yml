@@ -19,7 +19,7 @@ jobs:
         cmake ..
         cmake --build .
     - name: run with static linking
-      run: ./bin/hello-bin-static
+      run: /home/runner/work/hello_world_lib/hello_world_lib/build/bin/hello-bin-static
     - name: run with shared linking
-      run: ./build/bin/hello-bin-dynamic
+      run: /home/runner/work/hello_world_lib/hello_world_lib/build/bin/hello-bin-dynamic
      
