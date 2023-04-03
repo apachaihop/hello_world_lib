@@ -15,6 +15,6 @@ enable_testing()
 add_test(NAME test-static
 COMMAND hello-lib-static
 )
-add_test(NAME test-static
+add_test(NAME test-dynamic
 COMMAND hello-lib-dynamic
 )
