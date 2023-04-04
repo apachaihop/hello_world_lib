@@ -18,6 +18,8 @@ jobs:
         cd build
         cmake ..
         cmake --build .
+        cd bin
+        ctest
     - name: run with static linking
       run: /home/runner/work/hello_world_lib/hello_world_lib/build/bin/hello-bin-static
     - name: run with shared linking
