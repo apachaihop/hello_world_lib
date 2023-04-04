@@ -12,4 +12,5 @@ target_link_libraries(hello-bin-dynamic LINK_PUBLIC hello-lib-dynamic)
 
 include(CTest)
 
-add_test(hellotest hello-bin-static)
+add_test(helloteststatic hello-bin-static)
+add_test(hellotestdynamic hello-bin-dynamic)
