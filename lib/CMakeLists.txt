@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.24)
 project(hello-lib CXX)
 
 add_library(hello-lib-static STATIC include/hello_world_lib.h source/hello_world_lib.cpp)
