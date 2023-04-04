@@ -2,7 +2,7 @@
 
 #include <hello_world_lib.h>
 
-int main(int /*argc*/, char* /*argv*/[], char* /*argv_env*/[])
+int main()
 {
     const char*      user_env_var = std::getenv("USER");
     std::string_view user         = user_env_var != nullptr
